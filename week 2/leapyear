@@ -1,0 +1,5 @@
+current_yr=int(input("enter the current year"))
+final_yr=int(input("enter the final year"))
+for year in range (current_yr,final_yr+1):
+    if(year%4==0):
+        print(year)
