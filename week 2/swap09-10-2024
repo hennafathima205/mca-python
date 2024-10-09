@@ -1,0 +1,7 @@
+a=[1,2,3,4,5]
+print(a)
+temp=0
+temp=a[0]
+a[0]=a[-1]
+a[-1]=temp
+print("swapped list",a)
