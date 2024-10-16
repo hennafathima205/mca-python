@@ -1,0 +1,7 @@
+list=[]
+print("list []")
+list.append(10)
+list.append("apple")
+list.append("orange")
+list.append(20)
+print("updated list",list)
