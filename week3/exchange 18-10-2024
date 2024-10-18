@@ -1,0 +1,10 @@
+text= "python"
+new= " "
+n= len(text)
+new += text[n-1]
+i=1
+while i <n - 1:
+    new += text[i]
+    i += 1
+new += text[0]
+print(new)
