@@ -1,0 +1,3 @@
+input_str = input("Enter a string: ")
+result = replace_first_char_with_dollar(input_str)
+print("Modified string:", result)
